@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { CartInfoComponent } from './cart-info/cart-info.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
@@ -12,8 +11,7 @@ import { environment } from '../environments/environment';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
-    CartInfoComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
