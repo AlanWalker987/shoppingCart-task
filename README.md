@@ -15,7 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Service worker
-Run http-server -p 8080 -c-1 dist/shopping-cart after building the application. It will start the http server and run localhost:8080 to load the application.
+Run `http-server -p 8080 -c-1 dist/shopping-cart` after building the application. It will start the http server and run localhost:8080 to load the application.
 
 ## Running unit tests
 
