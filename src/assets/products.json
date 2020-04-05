@@ -1,0 +1,112 @@
+[
+  {
+        "id": 1,
+        "brandName": "Apple",
+        "productName": "iPhone XS",
+        "quantity": 5,
+        "price": 100000,
+        "mrp": 90000,
+        "imgUrl" : "../assets/images/apple.jpeg",
+        "offerText" : "10% OFF",
+        "quantityChange" : 0
+  },
+  {
+      "id": 2,
+      "brandName": "Moto",
+      "productName": "G5 Plus",
+      "quantity": 15,
+      "price": 15000,
+      "mrp": 13000,
+      "imgUrl" : "../assets/images/moto.jpeg",
+      "offerText" : "20% OFF",
+      "quantityChange" : 0
+  },
+  {
+      "id": 3,
+      "brandName": "Oppo",
+      "productName": "F11 Pro",
+      "quantity": 5,
+      "price": 10000,
+      "mrp": 9000,
+      "imgUrl" : "../assets/images/oppo.jpeg",
+      "offerText" : "20% OFF",
+      "quantityChange" : 0
+  },
+  {
+      "id": 4,
+      "brandName": "Realme",
+      "productName": "C3 Frozen",
+      "quantity": 8,
+      "price": 20000,
+      "mrp": 17000,
+      "imgUrl" : "../assets/images/realme.jpeg",
+      "offerText" : "18% OFF",
+      "quantityChange" : 0
+  },
+  {
+    "id": 5,
+    "brandName": "Samsung",
+    "productName": "Galaxy S9",
+    "quantity": 20,
+    "price": 250000,
+    "mrp": 20000,
+    "imgUrl" : "../assets/images/samsung.jpeg",
+    "offerText" : "22% OFF",
+    "quantityChange" : 0
+},
+{
+    "id": 6,
+    "brandName": "One Plus",
+    "productName": "Frosted silver",
+    "quantity": 10,
+    "price": 30000,
+    "mrp": 25000,
+    "imgUrl" : "../assets/images/oneplus.jpeg",
+    "offerText" : "10% OFF",
+    "quantityChange" : 0
+},
+{
+    "id": 7,
+    "brandName": "Gionee",
+    "productName": "F9 Plus",
+    "quantity": 20,
+    "price": 15000,
+    "mrp": 14000,
+    "imgUrl" : "../assets/images/gionee.jpeg",
+    "offerText" : "15% OFF",
+    "quantityChange" : 0
+},
+{
+    "id": 8,
+    "brandName": "Honor",
+    "productName": "Phantom Blue",
+    "quantity": 10,
+    "price": 20000,
+    "mrp": 19000,
+    "imgUrl" : "../assets/images/honor.jpeg",
+    "offerText" : "18% OFF",
+    "quantityChange" : 0
+},
+{
+    "id": 9,
+    "brandName": "Nokia",
+    "productName": "Ice Black",
+    "quantity": 5,
+    "price": 150000,
+    "mrp": 14000,
+    "imgUrl" : "../assets/images/nokia.jpeg",
+    "offerText" : "12% OFF",
+    "quantityChange" : 0
+},
+{
+    "id": 10,
+    "brandName": "Lava",
+    "productName": "Ruby red",
+    "quantity": 10,
+    "price": 8000,
+    "mrp": 7500,
+    "imgUrl" : "../assets/images/lava.jpeg",
+    "offerText" : "18% OFF",
+    "quantityChange" : 0
+}
+]

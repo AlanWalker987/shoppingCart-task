@@ -1,0 +1,54 @@
+<app-header></app-header>
+
+<!-- To display product and its details -->
+<div class="displayProduct" *ngFor="let Product of productList; index as i">
+  <div class="left">
+    <img class="img" [src]="Product.imgUrl" alt="item" />
+    <p class="offer">Offers Available : {{ Product.offerText }}</p>
+  </div>
+
+  <div class="right">
+    <h1 class="brand_name">{{ Product.brandName }}</h1>
+    <p>{{ Product.productName }}</p>
+    <p>Units Available : {{ Product.quantity }}</p>
+    <p>MRP {{ Product.mrp }} /-</p>
+    <h3 class="price">Rs {{ Product.price }} /-</h3>
+    <button class="add_cart" (click)="addToCart(i,$event)">Add To Cart</button>
+    <ng-container *ngIf="selectedProductList != null && selectedProductList.length > 0">
+      <ng-container *ngFor="let selec of selectedProductList;index as j">
+        <ng-container *ngIf="selec.id == Product.id">
+          <div>
+              <button class="inc_btn" (click)="addorRemove(j,'add')"> + </button> {{selec.quantity}} <button class="dec_btn" (click)="addorRemove(j,'sub')"> - </button>
+          </div>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>
+
+<!-- To display total quantity and total price -->
+<div class="finalData">
+  <div class="leftcolumn">
+    <p>Total Quantity : {{totalQuntity}} </p>
+    <p>Total Price : {{totalAmount}} </p>
+  </div>
+  <div class="rightcolumn">
+    <button class="checkout" (click)="checkoutDetails()">Check out</button>
+  </div>
+</div>
+
+
+<!-- To display total quantity and total price in popup box-->
+ <div class="main" *ngIf="selectedProductList != null && selectedProductList.length > 0 && check;">
+  <div class="backdrop"></div>
+    <div class="alert-box" *ngFor="let prodData of selectedProductList;index as j">
+      <h1>Cart Details</h1>
+      <p>Total Quantity : {{totalQuntity}} </p>
+      <p>Total Price : {{totalAmount}} </p>
+    <div class="alert-box-actions">
+      <button class="add_cart" (click)="closeBtn()">Close</button>
+    </div>
+    </div>
+  </div>
+
+<app-footer></app-footer>

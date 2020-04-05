@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+  font-family: cursive;
+}
+body{
+  background-color: #eeeeee;
+}
+
+.add_cart, .checkout{
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  outline: none;
+  }
+
+  .footerpart{
+    z-index: 1;
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    text-align:center;
+}

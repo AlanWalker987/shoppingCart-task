@@ -1,0 +1,110 @@
+.displayProduct{
+    display:flex;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+  }
+
+  .left,.right{
+    flex-basis: 50%;
+  }
+
+  img{
+    position:relative;
+    left: 40%;
+    top: 50%;
+  }
+
+  .headertext, .offer{
+    text-align: center;
+  }
+
+  .right{
+    margin-left: 65px;
+  }
+
+    .inc_btn, .dec_btn{
+      background-color: #4CAF50;
+      border: none;
+      color: black;
+      padding: 4px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 10px 16px;
+      cursor: pointer;
+      border-radius: 20px;
+      outline: none;
+    }
+
+  .brand_name{
+    color:#4caf50;
+  }
+
+  .price{
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 24px;
+  }
+
+  .finalData{
+    display: flex;
+    background-color: lightsteelblue;
+  }
+
+  .leftcolumn,.rightcolumn{
+    flex-basis: 50%;
+  }
+
+  .leftcolumn{
+    margin-top:0px;
+    margin-left: 127px;
+  }
+
+  .rightcolumn{
+    margin-left: 127px;
+    margin-top: 27px;
+  }
+
+  .backdrop{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    z-index:50;
+  }
+
+  .alert-box{
+    position: fixed;
+    top:30vh;
+    left:20vw;
+    width:60vw;
+    padding: 16px;
+    z-index: 100;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    border-radius: 45px;
+  }
+
+  .alert-box-actions{
+    text-align: center;
+  }
+
+   .alert-box h1{
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+
+
+    }
