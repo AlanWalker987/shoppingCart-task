@@ -12,14 +12,16 @@
     position:relative;
     left: 40%;
     top: 50%;
+    width: 100%;
+    max-width: 155px;
+    height: auto;
   }
+  .displayProduct > div{
+        flex: 1;
+    }
 
   .headertext, .offer{
     text-align: center;
-  }
-
-  .right{
-    margin-left: 65px;
   }
 
     .inc_btn, .dec_btn{
@@ -102,5 +104,35 @@
     p{
         font-size: 20px;
     }
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      .displayProduct{
+        display: flex;
+      }
+      .displayProduct > .left{
+        justify-content: space-around;
+      }
 
-    
+      .displayProduct > .right{
+        justify-content: space-around;
+        margin-left: 13px;
+      }
+      .left > img{
+        position:relative;
+        left: 8%;
+        top: 50%;
+      }
+
+      .finalData{
+        display: flex;
+      }
+
+      .finalData > .leftcolumn{
+        justify-content: space-around;
+      }
+
+      .leftcolumn,.rightcolumn{
+        justify-content: space-around;
+        margin-left: 13px;
+      }
+
+    }
